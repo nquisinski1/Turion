@@ -1,22 +1,36 @@
-# Turion Global institutional landing
+# Turion Global — site institucional
 
-Pre-launch website for the Turion parent brand and its partner-led sector verticals.
+Site institucional em português para a primeira fase da Turion Global.
 
-## Current scope
+## Posicionamento implementado
 
-- trilingual interface: English, Portuguese, Spanish
-- Turion Global parent-brand platform
-- Turion Travel Capital as the founding vertical
-- Turion Fitness Capital as a proposed next vertical
-- partner-accountability and brand-governance model
-- pre-launch legal disclosure and `noindex` protection
+- assessoria estratégica empresarial internacional;
+- foco na economia da experiência e do bem-estar;
+- atuação direta em diagnóstico, preparação, conexão e acompanhamento;
+- execução de produtos e atividades reguladas reservada a parceiros competentes;
+- verticais Travel Capital, Fitness Capital e Vitality Capital;
+- área específica para bancos, fundos e especialistas;
+- linguagem regulatória e links de consulta a BCB e CVM;
+- proteção `noindex, nofollow` durante aprovação.
 
-The site intentionally has no lead form, partner logos or regulated performance claims until the corresponding legal, privacy, permission and operational channels are approved.
+## Identidade
 
-## Local commands
+- rota C aprovada;
+- `#192830` — petróleo profundo;
+- `#C0B19A` — bronze mineral;
+- `#FFFFFF` — branco;
+- símbolo aplicado via CSS para preservar precisão e carregamento.
 
-```bash
-npm run dev
-npm run lint
-npm test
-```
+## Gate para publicação pública
+
+O site está preparado como versão privada de aprovação. Não remover `noindex` até confirmar:
+
+1. razão social, registro e endereço da entidade contratante;
+2. parecer jurídico Brasil–Panamá;
+3. domínio canônico e funcionamento de `contato@turionglobal.com`;
+4. política de privacidade, controlador e canal do titular;
+5. contratos e autorizações de parceiros;
+6. busca jurídica do nome, do símbolo e de `Vitality Capital`;
+7. textos finais sobre remuneração e produtos.
+
+Logotipos de parceiros não foram publicados porque não foram fornecidos contratos, autorizações de uso ou arquivos oficiais.

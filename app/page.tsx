@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import TurionLanding from "./TurionLanding";
 
 export const metadata: Metadata = {
-  title: { absolute: "Turion Global | Sector-native capital businesses" },
+  title: { absolute: "Turion Global | Estratégia financeira por setores" },
   description:
-    "Turion Global is the parent brand for sector-specialist businesses built with experienced operating partners.",
+    "Advisory internacional para empresas da economia da experiência e do bem-estar. Estratégia, preparação e conexão com parceiros qualificados.",
   robots: {
     index: false,
     follow: false,
