@@ -1,781 +1,385 @@
-# TURION — Textos completos do site
+# TURION — textos completos do site
 
-Versão de trabalho para revisão editorial.
+Versão editorial gerada a partir da fonte canônica do site Astro.
 
-Este documento reúne o conteúdo textual das páginas institucionais atualmente implementadas. Alterações feitas aqui somente serão aplicadas ao site depois da aprovação editorial.
+## Elementos compartilhados
 
-## 1. Elementos compartilhados
+**Menu:** Advisory & Capital · Travel · Fitness · Health · Contato
 
-### Marca principal
+**Princípio editorial:** linguagem institucional, precisa e sem promessas de aprovação ou concessão de crédito.
 
-TURION
-
-### Divisões
-
-- TURION TRAVEL
-- TURION FITNESS
-- TURION HEALTH
-
-### Menu principal
-
-- Advisory & Capital
-- Travel
-- Fitness
-- Health
-- Contato
-
-### Ação do cabeçalho
-
-Conversa reservada
-
-### Ações principais
-
-- Apresentar uma oportunidade
-- Compreender nossa visão
+**Nota legal:** A Turion não é banco, fintech, instituição financeira ou correspondente bancário. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições autorizadas. A aprovação, as condições e a contratação são decisões exclusivas da instituição escolhida.
 
 ---
 
-# 2. Página principal — Advisory & Capital
+# TURION | Advisory & Capital
 
-URL prevista: `turionadvisory.com`
+**Rota:** `/`
+
+**Identificação:** T / 00
+**Contexto:** Advisory & Capital · Travel · Fitness · Health
 
 ## Abertura
 
-### Identificação
+### Capital exige mais do que acesso. Exige critério.
 
-T / 00
+A Turion prepara empresas para decisões de capital. Compreendemos o contexto, organizamos a oportunidade e conduzimos a interlocução com instituições e provedores potencialmente aderentes.
 
-Advisory & Capital · Travel · Fitness · Health
+**Ação:** Conheça nosso mandato
 
-### Título principal
+## Ponto de vista
 
-Capital com contexto.
+### A qualidade da relação com o capital começa na qualidade da oportunidade.
 
-Oportunidades com direção.
+Antes de buscar uma instituição, é preciso compreender a empresa, a finalidade dos recursos e as condições que sustentam a decisão. Capital sem contexto amplia ruído. Contexto bem organizado eleva a qualidade da análise.
 
-### Texto de apoio
+A Turion atua antes e durante essa interlocução. O objetivo não é multiplicar apresentações. É construir clareza suficiente para que cada parte decida com responsabilidade.
 
-A Turion une empresas que conhece em profundidade a instituições e provedores de capital com potencial aderência à sua realidade. Não partimos do produto financeiro. Partimos da decisão empresarial.
+## Mandato
 
-### Ações
+### Preparação antes da apresentação.
 
-- Apresentar uma oportunidade
-- Compreender nossa visão
+Nosso trabalho transforma uma necessidade empresarial em uma oportunidade compreensível, comparável e conduzida com disciplina.
 
-### Identificação inferior
+## Escopo
 
-- turionadvisory.com
-- Travel · Fitness · Health
+### 01 · Contexto empresarial
 
-## 01. Nossa visão
+Lemos o negócio, a finalidade do capital, o momento da empresa e as restrições que influenciam a decisão.
 
-### Título
+### 02 · Consistência da oportunidade
 
-A decisão começa antes do capital.
+Organizamos informações, premissas, garantias informadas e questões que precisam ser tratadas antes da apresentação.
 
-### Texto principal
+### 03 · Aderência institucional
 
-Conhecer a empresa. Preparar a oportunidade. Encontrar aderência. A Turion organiza essa sequência para que a interlocução com o mercado financeiro comece com propósito, informação e responsabilidades claras.
+Relacionamos a oportunidade a instituições e provedores cujo escopo possa ser compatível com o mandato.
 
-### Ponto de vista
+### 04 · Condução do processo
 
-Uma boa relação bancária amplia possibilidades. Uma visão independente ajuda a empresa a compreender o conjunto, comparar caminhos e preservar o controle da decisão.
+Coordenamos o fluxo autorizado de informações e acompanhamos a interlocução sem interferir na análise de cada instituição.
 
-## 02. Quem somos
+## Responsabilidades
 
-### Destaque
+### Clareza sobre quem prepara, quem decide e quem executa.
 
-11+
+A confiança institucional depende de limites compreendidos desde o início.
 
-### Título
+## Leitura institucional
 
-Experiência para reconhecer o que torna uma oportunidade consistente.
+### 01 · A empresa
 
-### Texto
+Define sua necessidade, disponibiliza informações e preserva a decisão final sobre qualquer proposta recebida.
 
-A experiência que dá origem à Turion foi construída ao longo de mais de 11 anos no setor financeiro, em contextos nacionais e internacionais. A empresa nasce para atuar como parceira dos setores que conhece, com proximidade suficiente para compreender desafios e disciplina suficiente para preparar cada interlocução.
+### 02 · A Turion
 
-## 03. O que a Turion faz
+Compreende o contexto, prepara a oportunidade e conduz a interlocução prevista no mandato.
 
-### Título
+### 03 · A instituição
 
-Inteligência entre a necessidade empresarial e o capital disponível.
+Realiza sua própria análise, solicita informações, define condições e aprova ou recusa a oportunidade segundo critérios próprios.
 
-### Introdução
+## Método · Clareza antes do capital.
 
-Conhecemos a dor do cliente, qualificamos o contexto e apresentamos a oportunidade a potenciais instituições aderentes. A análise e a decisão permanecem integralmente com cada instituição.
+### 01 · Compreender
 
-### 01. Leitura executiva
+A conversa começa pela empresa e pela decisão que o capital precisa tornar possível.
 
-Compreendemos o negócio, a finalidade do capital, o momento da empresa e as restrições da decisão.
+### 02 · Organizar
 
-### 02. Preparação da oportunidade
+Informação, finalidade e contexto são tratados como partes de uma mesma oportunidade.
 
-Organizamos informações, narrativa financeira e pontos que precisam ser tratados antes da apresentação.
+### 03 · Relacionar
 
-### 03. Aderência institucional
+A apresentação ocorre somente com autorização e potencial compatibilidade institucional.
 
-Relacionamos o perfil da oportunidade a instituições e provedores com potencial compatibilidade.
+### 04 · Acompanhar
 
-### 04. Coordenação
+Pendências e próximos passos são coordenados até a decisão independente de cada instituição.
 
-Conduzimos o fluxo autorizado de informações e acompanhamos a interlocução sem interferir na análise da instituição.
+## Conversa reservada
 
-## 04. Responsabilidades
+### Decisões relevantes começam com uma conversa reservada.
 
-### Título
-
-Cada parte ocupa o lugar que lhe corresponde.
-
-### Introdução
-
-A confiança nasce da clareza sobre quem prepara, quem decide e quem executa.
-
-### 01. A empresa
-
-Define a necessidade, disponibiliza informações e preserva a decisão final sobre o caminho escolhido.
-
-### 02. Turion
-
-Compreende o contexto, prepara a oportunidade e coordena a interlocução prevista no mandato.
-
-### 03. A instituição
-
-Realiza sua própria análise, solicita informações, define condições e aprova ou recusa a oportunidade.
-
-## 05. Como atuamos
-
-### Título
-
-Do contexto à interlocução institucional.
-
-### Introdução
-
-O processo reduz ruído, organiza informação e preserva responsabilidades.
-
-### 01. Compreender
-
-A conversa começa pelo negócio e pela decisão que o capital precisa tornar possível.
-
-### 02. Preparar
-
-A oportunidade é organizada para que informação e contexto sustentem a análise.
-
-### 03. Apresentar
-
-Com autorização do cliente, aproximamos a oportunidade de potenciais instituições aderentes.
-
-### 04. Acompanhar
-
-Coordenamos pendências e próximos passos até a decisão independente de cada instituição.
-
-## 06. Divisões
-
-### Título
-
-Especialização setorial. Uma única disciplina de capital.
-
-### Introdução
-
-Travel, Fitness e Health possuem ciclos, riscos e decisões próprias. A Turion lê cada oportunidade dentro da economia que produz seus resultados.
-
-### TURION TRAVEL
-
-Operadoras · hospitalidade · tecnologia · serviços
-
-Ação: Conhecer a divisão
-
-### TURION FITNESS
-
-Academias · clubes · equipamentos · tecnologia
-
-Ação: Conhecer a divisão
-
-### TURION HEALTH
-
-Clínicas · hospitais · beleza · longevidade
-
-Ação: Conhecer a divisão
-
-## 07. Contato
-
-### Título
-
-Uma oportunidade relevante merece uma conversa bem preparada.
-
-### Texto
-
-Compartilhe o contexto, a finalidade do capital e o momento da empresa. A leitura inicial avaliará se existe base para avançar.
-
-### Informações institucionais
-
-Direção institucional  
-Panamá · Brasil
-
-Contato  
-n.quisinski@turionadvisory.com
-
-Website  
-turionadvisory.com
-
-### O que acontece depois do envio
-
-A Turion realiza uma leitura inicial do contexto apresentado. Havendo aderência, entramos em contato para uma conversa reservada. O envio não representa aprovação, proposta de crédito ou compromisso de contratação.
-
-### Categorias previstas para o formulário
-
-- Capital para crescimento
-- Liquidez e recebíveis
-- Expansão ou aquisição
-- Preparação empresarial
-- Outro mandato
+Apresente o contexto da empresa, a finalidade do capital e o momento da decisão. A leitura inicial indicará se existe base para uma interlocução.
 
 ---
 
-# 3. Página TURION TRAVEL
+# Turion Travel | Capital para a economia da viagem
 
-URL prevista: `travel.turionadvisory.com`
+**Rota:** `/travel/`
+
+**Identificação:** T / 01
+**Contexto:** Operadoras · hospitalidade · tecnologia · serviços
 
 ## Abertura
 
-### Identificação
+### Capital para quem transforma expectativa em experiência.
 
-T / 01
+A Turion Travel prepara decisões de capital a partir dos ciclos que definem o setor: reservas, fornecedores, sazonalidade, moeda, capacidade e entrega.
 
-Operadoras · hospitalidade · tecnologia · serviços
+**Ação:** Conheça nosso mandato
 
-### Título principal
+## Ponto de vista Travel
 
-O capital precisa compreender
+### O turismo converte confiança futura em compromisso presente.
 
-o tempo da viagem.
+Uma venda realizada hoje pode produzir obrigações por muitos meses. Recebimentos, fornecedores e entrega operam em calendários distintos. Essa diferença altera liquidez, risco e a forma como uma oportunidade deve ser compreendida.
 
-### Texto de apoio
+A tese de capital começa pelo ciclo real da viagem. O instrumento vem depois.
 
-Reservas, fornecedores, sazonalidade, moeda e entrega operam em calendários distintos. A Turion Travel prepara oportunidades de capital a partir da realidade do setor.
+## Mandato Travel
 
-### Ações
+### Capital orientado pela economia da operação.
 
-- Apresentar uma oportunidade
-- Compreender nossa visão
+A divisão organiza o contexto setorial para que instituições possam avaliar a oportunidade com maior clareza.
 
-### Identificação inferior
+## Escopo
 
-- travel.turionadvisory.com
-- Travel · Fitness · Health
+### T01 · Ciclo de caixa e recebíveis
 
-## 01. Ponto de vista Travel
+Leitura de reservas, recebimentos, compromissos futuros e garantias informadas para a interlocução institucional.
 
-### Título
+### T02 · Hospitalidade e capacidade
 
-No turismo, caixa presente e obrigação futura precisam ser lidos juntos.
+Preparação de decisões relacionadas a novas unidades, modernização, ocupação e experiência do hóspede.
 
-### Texto principal
+### T03 · Tecnologia e distribuição
 
-Uma reserva pode gerar receita hoje e compromissos por muitos meses. Essa diferença altera liquidez, risco, garantias e a forma como uma oportunidade deve chegar ao mercado.
+Organização de oportunidades ligadas a plataformas, eficiência operacional, meios de venda e integração.
 
-### Ponto de vista
-
-A tese de capital começa pela dinâmica da operação. Só depois encontra o instrumento e a instituição compatíveis.
-
-## 02. Advisory para Travel
-
-### Título
-
-Decisões de capital orientadas pelo ciclo real da viagem.
-
-### Introdução
-
-A Turion traduz o contexto operacional do setor em uma oportunidade inteligível para potenciais instituições, preservando a decisão de cada parte.
-
-### T01. Liquidez e recebíveis
-
-Organização de reservas, recebíveis, compromissos futuros e garantias para interlocução institucional.
-
-### T02. Hospitalidade e capacidade
-
-Preparação de oportunidades ligadas a novas unidades, modernização, ocupação e experiência do hóspede.
-
-### T03. Tecnologia e distribuição
-
-Leitura de investimentos em plataformas, eficiência operacional, meios de venda e integração.
-
-### T04. Crescimento internacional
+### T04 · Operações internacionais
 
 Coordenação com instituições habilitadas quando a decisão envolve moeda, fornecedores ou expansão internacional.
 
-## 03. Ecossistema Travel
+## Economia Travel
 
-### Título
+### Negócios que vendem, operam e sustentam a viagem.
 
-Para quem move a economia da viagem.
+A especialização setorial reduz a distância entre a realidade operacional e a leitura financeira.
 
-### Introdução
+## Leitura institucional
 
-A divisão reúne conhecimento sobre negócios que vendem, operam e sustentam experiências de viagem.
-
-### 01. Operadoras e agências
+### 01 · Operadoras e agências
 
 Empresas com ciclos intensos de reservas, recebimentos e compromissos com fornecedores.
 
-### 02. Hotelaria e hospitalidade
+### 02 · Hotelaria e hospitalidade
 
-Hotéis, grupos e operadores diante de decisões de capacidade, modernização ou expansão.
+Grupos e operadores diante de decisões de capacidade, modernização ou expansão.
 
-### 03. Travel tech e fornecedores
+### 03 · Tecnologia e fornecedores
 
-Plataformas, distribuidores e empresas que sustentam vendas, pagamentos e operação do setor.
+Plataformas, distribuidores e empresas que sustentam vendas, pagamentos e operação.
 
-## 04. Como atuamos
+## Método · Clareza antes do capital.
 
-### Título
+### 01 · Ler o ciclo
 
-Do contexto à interlocução institucional.
+Reservas, sazonalidade, recebíveis e compromissos futuros são analisados em conjunto.
 
-### Introdução
+### 02 · Organizar
 
-O processo reduz ruído, organiza informação e preserva responsabilidades.
+A finalidade e os fatores setoriais relevantes são apresentados com precisão.
 
-### 01. Ler o ciclo
+### 03 · Relacionar
 
-Compreendemos reservas, sazonalidade, recebíveis e compromissos futuros.
+Potenciais instituições são consideradas conforme perfil, finalidade e escopo.
 
-### 02. Preparar
+### 04 · Acompanhar
 
-Organizamos a finalidade, a informação e os fatores setoriais relevantes.
+O fluxo é coordenado até a decisão independente de cada instituição.
 
-### 03. Relacionar
+## Conversa reservada
 
-Mapeamos potenciais instituições conforme perfil e finalidade da oportunidade.
+### Qual decisão está definindo o próximo ciclo da sua empresa?
 
-### 04. Acompanhar
-
-Coordenamos o fluxo até a decisão independente de cada instituição.
-
-## 05. Divisões
-
-Utiliza o conteúdo compartilhado da seção “Divisões”. Na página Travel, a identificação da divisão atual é:
-
-Divisão atual
-
-## Contato
-
-### Título
-
-Qual decisão está definindo o próximo ciclo da sua empresa?
-
-### Texto
-
-Apresente a finalidade do capital e a dinâmica da operação. A leitura inicial avaliará a aderência à Turion Travel.
-
-### Categorias previstas para o formulário
-
-- Liquidez e recebíveis
-- Hospitalidade e capacidade
-- Tecnologia e distribuição
-- Crescimento internacional
-- Outro mandato
-
-### O que acontece depois do envio
-
-A Turion realiza uma leitura inicial do contexto apresentado. Havendo aderência, entramos em contato para uma conversa reservada. O envio não representa aprovação, proposta de crédito ou compromisso de contratação.
+Compartilhe a finalidade do capital e a dinâmica da operação. A leitura inicial indicará a aderência ao mandato da Turion Travel.
 
 ---
 
-# 4. Página TURION FITNESS
+# Turion Fitness | Capital para a economia do movimento
 
-URL prevista: `fitness.turionadvisory.com`
+**Rota:** `/fitness/`
+
+**Identificação:** T / 02
+**Contexto:** Academias · clubes · equipamentos · tecnologia
 
 ## Abertura
 
-### Identificação
+### Crescimento disciplinado começa na economia de cada unidade.
 
-T / 02
+A Turion Fitness prepara decisões de capital considerando recorrência, retenção, ocupação, maturação, capacidade instalada e disciplina operacional.
 
-Academias · clubes · equipamentos · tecnologia
+**Ação:** Conheça nosso mandato
 
-### Título principal
+## Ponto de vista Fitness
 
-Recorrência só se transforma em valor
+### Recorrência não é apenas receita. É compromisso contínuo com capacidade e entrega.
 
-quando sustenta capacidade.
+Mensalidades indicam previsibilidade. Retenção, ocupação e maturação revelam a qualidade dessa previsibilidade. A expansão precisa ser compreendida a partir da unidade econômica que a sustenta.
 
-### Texto de apoio
+Escala sem disciplina amplia exposição. Disciplina transforma recorrência em continuidade.
 
-Retenção, maturação por unidade, ocupação e equipamentos determinam a qualidade do crescimento. A Turion Fitness prepara o capital dentro dessa economia.
+## Mandato Fitness
 
-### Ações
+### Capital para capacidade, eficiência e continuidade.
 
-- Apresentar uma oportunidade
-- Compreender nossa visão
+A divisão organiza indicadores operacionais e financeiros para que o próximo movimento seja apresentado dentro da lógica do setor.
 
-### Identificação inferior
+## Escopo
 
-- fitness.turionadvisory.com
-- Travel · Fitness · Health
+### F01 · Recebíveis e liquidez
 
-## 01. Ponto de vista Fitness
+Leitura de recorrência, retenção, recebíveis e garantias informadas para a interlocução institucional.
 
-### Título
+### F02 · Expansão e capacidade
 
-Crescer não é apenas abrir unidades. É sustentar a economia de cada uma delas.
+Preparação de decisões relacionadas a novas unidades, retrofit e aumento de capacidade.
 
-### Texto principal
+### F03 · Clubes e experiência
 
-Mensalidades mostram recorrência. Retenção, ocupação, capacidade instalada e disciplina operacional revelam se essa recorrência pode financiar o próximo ciclo.
+Organização de investimentos em instalações, serviços e experiência do associado.
 
-### Ponto de vista
-
-A tese de capital precisa reconhecer a diferença entre expansão aparente e crescimento economicamente consistente.
-
-## 02. Advisory para Fitness
-
-### Título
-
-Capital para capacidade, equipamentos e escala disciplinada.
-
-### Introdução
-
-A Turion organiza indicadores operacionais e financeiros para que a oportunidade seja compreendida dentro da lógica do setor.
-
-### F01. Recebíveis e liquidez
-
-Organização de recorrência, retenção, recebíveis e garantias para interlocução institucional.
-
-### F02. Equipamentos e expansão
-
-Preparação de oportunidades para novas unidades, retrofit e aumento de capacidade.
-
-### F03. Clubes e experiências
-
-Leitura de investimentos em instalações, serviços e experiência do associado.
-
-### F04. Consolidação e tecnologia
+### F04 · Consolidação e tecnologia
 
 Preparação para aquisições, alianças, plataformas e movimentos de profissionalização.
 
-## 03. Ecossistema Fitness
+## Economia Fitness
 
-### Título
+### Empresas que constroem a economia do movimento.
 
-Para quem constrói a economia do movimento.
+Operação, distribuição e tecnologia exigem leituras distintas dentro de uma mesma disciplina de capital.
 
-### Introdução
+## Leitura institucional
 
-A divisão reúne empresas de operação, infraestrutura, distribuição e tecnologia ligadas ao setor.
-
-### 01. Academias e redes
+### 01 · Academias e redes
 
 Operações recorrentes diante de decisões de expansão, modernização ou consolidação.
 
-### 02. Clubes e studios
+### 02 · Clubes e estúdios
 
 Empresas que combinam capacidade física, serviço e experiência de comunidade.
 
-### 03. Equipamentos e fitness tech
+### 03 · Equipamentos e fitness tech
 
-Distribuidores, fabricantes, plataformas e empresas que dão escala ao ecossistema.
+Distribuidores, fabricantes e plataformas que ampliam a capacidade do setor.
 
-## 04. Como atuamos
+## Método · Clareza antes do capital.
 
-### Título
+### 01 · Ler a unidade
 
-Do contexto à interlocução institucional.
+Recorrência, retenção, ocupação, capacidade e maturação são analisadas em conjunto.
 
-### Introdução
+### 02 · Organizar
 
-O processo reduz ruído, organiza informação e preserva responsabilidades.
+A finalidade e os dados que sustentam a oportunidade são tratados com precisão.
 
-### 01. Ler a unidade
+### 03 · Relacionar
 
-Compreendemos recorrência, retenção, ocupação, capacidade e maturação.
+Potenciais instituições são consideradas conforme perfil, finalidade e estágio da empresa.
 
-### 02. Preparar
+### 04 · Acompanhar
 
-Organizamos a finalidade e os dados que sustentam a oportunidade.
+O fluxo é coordenado até a decisão independente de cada instituição.
 
-### 03. Relacionar
+## Conversa reservada
 
-Mapeamos potenciais instituições conforme perfil, finalidade e estágio da empresa.
+### Qual movimento a empresa precisa sustentar no próximo ciclo?
 
-### 04. Acompanhar
-
-Coordenamos o fluxo até a decisão independente de cada instituição.
-
-## 05. Divisões
-
-Utiliza o conteúdo compartilhado da seção “Divisões”. Na página Fitness, a identificação da divisão atual é:
-
-Divisão atual
-
-## Contato
-
-### Título
-
-Que movimento sua empresa precisa financiar com consistência?
-
-### Texto
-
-Apresente a decisão e a economia da operação. A leitura inicial avaliará a aderência à Turion Fitness.
-
-### Categorias previstas para o formulário
-
-- Liquidez e recebíveis
-- Equipamentos e expansão
-- Clubes e experiências
-- Consolidação e tecnologia
-- Outro mandato
-
-### O que acontece depois do envio
-
-A Turion realiza uma leitura inicial do contexto apresentado. Havendo aderência, entramos em contato para uma conversa reservada. O envio não representa aprovação, proposta de crédito ou compromisso de contratação.
+Compartilhe a decisão e a economia da operação. A leitura inicial indicará a aderência ao mandato da Turion Fitness.
 
 ---
 
-# 5. Página TURION HEALTH
+# Turion Health | Capital para saúde, beleza e longevidade
 
-URL prevista: `health.turionadvisory.com`
+**Rota:** `/health/`
+
+**Identificação:** T / 03
+**Contexto:** Clínicas · hospitais · beleza · longevidade
 
 ## Abertura
 
-### Identificação
+### Crescimento e confiança precisam avançar juntos.
 
-T / 03
+A Turion Health prepara decisões de capital considerando capacidade clínica, tecnologia, ciclo financeiro e as responsabilidades próprias do setor.
 
-Clínicas · hospitais · beleza · longevidade
+**Ação:** Conheça nosso mandato
 
-### Título principal
+## Ponto de vista Health
 
-Crescimento e confiança
+### Em Health, capital e responsabilidade avançam juntos.
 
-precisam avançar juntos.
-
-### Texto de apoio
-
-Capacidade clínica, tecnologia, ciclo financeiro e responsabilidade não podem ser separados. A Turion Health prepara oportunidades de capital dentro dessa complexidade.
-
-### Ações
-
-- Apresentar uma oportunidade
-- Compreender nossa visão
-
-### Identificação inferior
-
-- health.turionadvisory.com
-- Travel · Fitness · Health
-
-## 01. Ponto de vista Health
-
-### Título
-
-Em Health, uma decisão financeira também afeta capacidade e confiança.
-
-### Texto principal
-
-Equipamentos, instalações, equipe, recebimento e condicionantes regulatórias alteram a qualidade de uma oportunidade. O capital precisa respeitar esse conjunto.
-
-### Ponto de vista
+Equipamentos, instalações, equipe, recebimento e condicionantes regulatórias influenciam a qualidade de uma oportunidade. A decisão financeira precisa respeitar esse conjunto.
 
 A Turion organiza a dimensão empresarial. Responsabilidades clínicas, técnicas e regulatórias permanecem com profissionais e instituições habilitados.
 
-## 02. Advisory para Health
+## Mandato Health
 
-### Título
+### Capital para capacidade, tecnologia e continuidade.
 
-Capital para tecnologia, capacidade e expansão responsável.
+A divisão prepara a oportunidade empresarial e conduz potenciais interlocuções sem ultrapassar responsabilidades clínicas ou regulatórias.
 
-### Introdução
+## Escopo
 
-A Turion prepara a oportunidade empresarial e coordena potenciais interlocutores sem ultrapassar responsabilidades clínicas ou regulatórias.
+### H01 · Recebíveis e liquidez
 
-### H01. Recebíveis e liquidez
+Leitura de fluxos financeiros, recebíveis e garantias informadas para a interlocução institucional.
 
-Organização de fluxos financeiros, recebíveis e garantias para interlocução institucional.
+### H02 · Tecnologia e capacidade
 
-### H02. Tecnologia e capacidade
+Preparação de decisões relacionadas a equipamentos, instalações e ampliação operacional.
 
-Preparação de oportunidades para equipamentos, instalações e ampliação operacional.
+### H03 · Clínicas e expansão
 
-### H03. Clínicas e expansão
+Organização de oportunidades ligadas a novas unidades, aquisição, modernização e crescimento de grupos.
 
-Leitura de novas unidades, aquisição, modernização e crescimento de grupos clínicos.
-
-### H04. Indústria e inovação
+### H04 · Indústria e inovação
 
 Preparação de oportunidades em cosméticos, farmacêutica, medtech e capacidade produtiva.
 
-## 03. Ecossistema Health
+## Economia Health
 
-### Título
+### Empresas que ampliam possibilidades de cuidado e longevidade.
 
-Para empresas que ampliam possibilidades de cuidado e longevidade.
+Negócios clínicos, industriais e tecnológicos exigem capital compreendido dentro de suas responsabilidades.
 
-### Introdução
+## Leitura institucional
 
-A divisão acompanha negócios clínicos, industriais e tecnológicos ligados à saúde, beleza e bem-estar.
-
-### 01. Clínicas e hospitais
+### 01 · Clínicas e hospitais
 
 Operações diante de decisões de capacidade, equipamentos, expansão ou reorganização.
 
-### 02. Estética e cirurgia plástica
+### 02 · Estética e cirurgia plástica
 
 Clínicas que combinam experiência, confiança, tecnologia e responsabilidade clínica.
 
-### 03. Cosméticos, farmacêutica e medtech
+### 03 · Cosméticos, farmacêutica e medtech
 
 Indústrias, marcas e plataformas que desenvolvem produtos e tecnologia para o setor.
 
-## 04. Como atuamos
+## Método · Clareza antes do capital.
 
-### Título
+### 01 · Ler a capacidade
 
-Do contexto à interlocução institucional.
+Ciclo financeiro, operação e condicionantes informadas pelos especialistas são analisados em conjunto.
 
-### Introdução
+### 02 · Organizar
 
-O processo reduz ruído, organiza informação e preserva responsabilidades.
+A finalidade e os dados empresariais necessários à oportunidade são tratados com precisão.
 
-### 01. Ler a capacidade
+### 03 · Relacionar
 
-Compreendemos o ciclo financeiro, a operação e as condicionantes informadas pelos especialistas.
+Potenciais instituições e especialistas são considerados conforme o contexto.
 
-### 02. Preparar
+### 04 · Acompanhar
 
-Organizamos a finalidade e os dados empresariais necessários à oportunidade.
+O fluxo é coordenado preservando responsabilidades clínicas, técnicas e financeiras.
 
-### 03. Relacionar
+## Conversa reservada
 
-Mapeamos potenciais instituições e especialistas conforme o contexto.
+### Qual capacidade a empresa precisa construir para o próximo ciclo?
 
-### 04. Acompanhar
-
-Coordenamos o fluxo preservando responsabilidades clínicas, técnicas e financeiras.
-
-## 05. Divisões
-
-Utiliza o conteúdo compartilhado da seção “Divisões”. Na página Health, a identificação da divisão atual é:
-
-Divisão atual
-
-## Contato
-
-### Título
-
-Qual capacidade sua empresa precisa construir para o próximo ciclo?
-
-### Texto
-
-Apresente a decisão e o contexto empresarial. A leitura inicial avaliará a aderência à Turion Health.
-
-### Categorias previstas para o formulário
-
-- Liquidez e recebíveis
-- Tecnologia e capacidade
-- Clínicas e expansão
-- Indústria e inovação
-- Outro mandato
-
-### O que acontece depois do envio
-
-A Turion realiza uma leitura inicial do contexto apresentado. Havendo aderência, entramos em contato para uma conversa reservada. O envio não representa aprovação, proposta de crédito ou compromisso de contratação.
+Compartilhe a decisão e o contexto empresarial. A leitura inicial indicará a aderência ao mandato da Turion Health.
 
 ---
-
-# 6. Rodapé compartilhado
-
-## Marca
-
-TURION
-
-Advisory de capital para a economia da experiência.
-
-## Navegação
-
-- Advisory & Capital
-- Travel
-- Fitness
-- Health
-- Contato
-
-## Responsabilidades claras
-
-A Turion atua em advisory de capital. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições financeiras. Cada oportunidade é analisada, aprovada ou recusada pela instituição escolhida pelo cliente, segundo critérios próprios.
-
-Produtos e atividades reguladas são contratados e executados diretamente por instituições e profissionais habilitados. A Turion não garante aprovação, condições ou resultado.
-
-## Linha final
-
-- © 2026 TURION
-- Domínio correspondente à página
-- Voltar ao início
-
----
-
-# 7. Metadados e buscadores
-
-O site está configurado para não ser indexado durante a fase de revisão.
-
-## Página principal
-
-### Título
-
-TURION | Advisory & Capital
-
-### Descrição
-
-Inteligência setorial e preparação de oportunidades de capital para empresas de Travel, Fitness e Health.
-
-### Descrição de compartilhamento
-
-Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.
-
-## Travel
-
-### Título
-
-Turion Travel | Inteligência de capital para o turismo
-
-### Descrição
-
-Inteligência de capital para operadoras, hospitalidade, travel tech e fornecedores do turismo.
-
-## Fitness
-
-### Título
-
-Turion Fitness | Inteligência de capital para a economia do movimento
-
-### Descrição
-
-Inteligência de capital para academias, redes, clubes, distribuidores e fitness tech.
-
-## Health
-
-### Título
-
-Turion Health | Inteligência de capital para saúde e longevidade
-
-### Descrição
-
-Inteligência de capital para clínicas, grupos médicos, estética, cosméticos, farmacêutica e medtech.
-
----
-
-# 8. Formulário incorporado
-
-O formulário utilizado nas páginas é carregado externamente pelo LeadConnector.
-
-- Nome atual: Forms - Modelo A Português
-- Identificador: 61iIYgpvcfo22fkrMxDX
-- Altura configurada: 646 px
-
-Os títulos, perguntas, alternativas, consentimentos e mensagens internas desse formulário não estão armazenados neste repositório. Eles precisam ser revisados diretamente na plataforma responsável pelo formulário.
-
----
-
-# 9. Rotas internas que não fazem parte do conteúdo público
-
-- `/brand-review`: página interna de revisão do sistema visual.
-- `/vitality`: rota antiga que redireciona para `/health`.
-

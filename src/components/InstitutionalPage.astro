@@ -1,0 +1,134 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { SiteContent } from "../data/sites";
+import { divisions } from "../data/sites";
+import BrandMark from "./BrandMark.astro";
+import SiteHeader from "./SiteHeader.astro";
+
+const { content } = Astro.props as { content: SiteContent };
+const isHome = content.key === "advisory";
+---
+
+<BaseLayout title={content.metaTitle} description={content.metaDescription}>
+  <SiteHeader descriptor={content.descriptor} />
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__field" aria-hidden="true">
+        <BrandMark class="hero__watermark" />
+      </div>
+      <div class="shell hero__content">
+        <p class="eyebrow">{content.eyebrow}</p>
+        <h1>{content.hero}<br /><em>{content.heroEmphasis}</em></h1>
+        <p class="hero__lead">{content.lead}</p>
+        <a class="text-link text-link--light" href="#mandato">Conheça nosso mandato <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero__index" aria-hidden="true"><span>{content.code}</span><span>Panamá · Brasil</span></div>
+    </section>
+
+    <section class="statement section" id="perspectiva">
+      <div class="shell statement__grid">
+        <p class="section-label">{content.thesisLabel}</p>
+        <div>
+          <h2>{content.thesis}</h2>
+          <div class="statement__copy">
+            <p>{content.thesisBody}</p>
+            <p>{content.principle}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mandate section section--dark" id="mandato">
+      <div class="shell">
+        <div class="section-heading section-heading--split">
+          <p class="section-label">{content.mandateLabel}</p>
+          <div><h2>{content.mandateTitle}</h2><p>{content.mandateIntro}</p></div>
+        </div>
+        <div class="card-grid card-grid--four">
+          {content.mandates.map((item) => (
+            <article class="institution-card">
+              <span>{item.code}</span><h3>{item.title}</h3><p>{item.body}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section responsibility" id="atuacao">
+      <div class="shell">
+        <div class="section-heading section-heading--split">
+          <p class="section-label">{content.audienceLabel}</p>
+          <div><h2>{content.audienceTitle}</h2><p>{content.audienceIntro}</p></div>
+        </div>
+        <div class="card-grid card-grid--three">
+          {content.audiences.map((item) => (
+            <article class="plain-card"><span>{item.code}</span><h3>{item.title}</h3><p>{item.body}</p></article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="method section">
+      <div class="shell method__grid">
+        <div class="method__intro"><p class="section-label">Método</p><h2>Clareza antes do capital.</h2></div>
+        <ol class="method__steps">
+          {content.method.map((item) => (
+            <li><span>{item.code}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    {isHome && (
+      <section class="divisions section section--paper" id="divisoes">
+        <div class="shell">
+          <div class="section-heading section-heading--split">
+            <p class="section-label">Conhecimento setorial</p>
+            <div><h2>Três economias. Uma disciplina institucional.</h2><p>A especialização permite interpretar cada oportunidade dentro da lógica que sustenta o negócio.</p></div>
+          </div>
+          <div class="division-list">
+            {divisions.map((division, index) => (
+              <a href={division.path}>
+                <span>0{index + 1}</span><h3>TURION {division.descriptor}</h3><p>{division.audienceIntro}</p><i aria-hidden="true">↗</i>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section class="contact section section--dark" id="contato">
+      <div class="shell contact__grid">
+        <div class="contact__intro">
+          <p class="section-label">Conversa reservada</p>
+          <h2>{content.formTitle}</h2>
+          <p>{content.formLead}</p>
+          <div class="contact__meta"><span>n.quisinski@turionadvisory.com</span><span>+507 6569 4992</span></div>
+        </div>
+        <div class="form-frame">
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/form/61iIYgpvcfo22fkrMxDX"
+            id="inline-61iIYgpvcfo22fkrMxDX"
+            data-layout='{"id":"INLINE"}'
+            data-trigger-type="alwaysShow"
+            data-activation-type="alwaysActivated"
+            data-deactivation-type="neverDeactivate"
+            data-form-name="Forms - Modelo A Português"
+            data-height="646"
+            data-layout-iframe-id="inline-61iIYgpvcfo22fkrMxDX"
+            data-form-id="61iIYgpvcfo22fkrMxDX"
+            title="Forms - Modelo A Português"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer__top"><BrandMark compact /><p>Advisory &amp; Capital para empresas dos setores Travel, Fitness e Health.</p></div>
+    <div class="shell footer__legal">
+      <p>A Turion não é banco, fintech, instituição financeira ou correspondente bancário. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições autorizadas. A aprovação, as condições e a contratação são decisões exclusivas da instituição escolhida.</p>
+      <span>© {new Date().getFullYear()} TURION</span>
+    </div>
+  </footer>
+  <script src="https://link.msgsndr.com/js/form_embed.js" is:inline></script>
+</BaseLayout>
+

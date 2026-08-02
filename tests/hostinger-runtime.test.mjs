@@ -2,26 +2,20 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
 
-const packageJson = JSON.parse(
-  readFileSync(new URL("../package.json", import.meta.url), "utf8"),
-);
-const tsconfig = JSON.parse(
-  readFileSync(new URL("../tsconfig.json", import.meta.url), "utf8"),
-);
+const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
 
-test("uses the native Next.js runtime required by Hostinger", () => {
-  assert.equal(packageJson.scripts.dev, "next dev --webpack");
-  assert.equal(packageJson.scripts.build, "next build --webpack");
-  assert.equal(packageJson.scripts.start, "next start");
+test("uses Astro as the only site runtime", () => {
+  assert.equal(packageJson.scripts.dev, "astro dev");
+  assert.equal(packageJson.scripts.build, "astro build");
+  assert.equal(packageJson.scripts.preview, "astro preview");
+  assert.ok(packageJson.dependencies.astro);
+  assert.equal(packageJson.dependencies.next, undefined);
+  assert.equal(packageJson.dependencies.react, undefined);
+  assert.equal(packageJson.dependencies["react-dom"], undefined);
 });
 
-test("keeps the Sites runtime available without making it the production build", () => {
-  assert.match(packageJson.scripts["build:sites"], /vinext build/);
-  assert.match(packageJson.scripts["dev:sites"], /vinext dev/);
-});
-
-test("type checks the Next.js app without compiling Cloudflare-only support files", () => {
-  assert.equal(tsconfig.include.includes("**/*.ts"), false);
-  assert.equal(tsconfig.include.includes("app/**/*.ts"), true);
-  assert.equal(tsconfig.include.includes("app/**/*.tsx"), true);
+test("builds a static site suitable for the existing hosting flow", () => {
+  const config = readFileSync(new URL("../astro.config.mjs", import.meta.url), "utf8");
+  assert.match(config, /output:\s*["']static["']/);
+  assert.match(config, /trailingSlash:\s*["']always["']/);
 });

@@ -1,0 +1,36 @@
+---
+import BrandMark from "./BrandMark.astro";
+
+const { descriptor = "" } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <BrandMark descriptor={descriptor} compact />
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span>Menu</span><i aria-hidden="true"></i>
+    </button>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Navegação principal">
+      <a href="/">Advisory &amp; Capital</a>
+      <a href="/travel/">Travel</a>
+      <a href="/fitness/">Fitness</a>
+      <a href="/health/">Health</a>
+      <a class="nav-contact" href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>(".menu-toggle");
+  const navigation = document.querySelector<HTMLElement>(".primary-nav");
+  button?.addEventListener("click", () => {
+    const open = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!open));
+    navigation?.classList.toggle("is-open", !open);
+  });
+  navigation?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
+    button?.setAttribute("aria-expanded", "false");
+    navigation.classList.remove("is-open");
+  }));
+</script>
+
