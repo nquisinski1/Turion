@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /node_modules.external-incomplete-*
+/node_modules.failed-*
+/node_modules.incomplete-*
 /.pnp
 .pnp.*
 .yarn/*

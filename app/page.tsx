@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import TurionLanding from "./TurionLanding";
+import TurionHome from "./TurionHome";
 
 export const metadata: Metadata = {
-  title: { absolute: "Turion Global | Estratégia financeira por setores" },
+  title: { absolute: "TURION | Advisory & Capital" },
   description:
-    "Advisory internacional para empresas da economia da experiência e do bem-estar. Estratégia, preparação e conexão com parceiros qualificados.",
+    "Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.",
   robots: {
     index: false,
     follow: false,
@@ -12,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <TurionLanding />;
+  return <TurionHome />;
 }

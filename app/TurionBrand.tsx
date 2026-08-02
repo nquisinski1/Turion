@@ -1,0 +1,25 @@
+export function TurionSymbol({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      className={`turion-symbol ${className}`}
+      viewBox="0 0 64 72"
+      role="img"
+      aria-label="Símbolo Turion"
+    >
+      <path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z" fill="currentColor" />
+      <path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function TurionLogo({ descriptor = "", compact = false }: { descriptor?: string; compact?: boolean }) {
+  return (
+    <span className={`turion-logo${compact ? " is-compact" : ""}`}>
+      <TurionSymbol />
+      <span className="turion-wordmark">
+        <strong>TURION</strong>
+        {descriptor ? <small>{descriptor}</small> : null}
+      </span>
+    </span>
+  );
+}

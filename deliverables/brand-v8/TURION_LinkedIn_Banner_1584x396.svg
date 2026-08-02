@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-label="Banner TURION para LinkedIn">
+  <rect width="1584" height="396" fill="#192830"/>
+  <circle cx="-56" cy="154" r="348" fill="none" stroke="#E5E4E2" stroke-opacity=".16" stroke-width="78"/><circle cx="-34" cy="-164" r="488" fill="none" stroke="#E5E4E2" stroke-opacity=".08" stroke-width="92"/>
+  <rect width="1584" height="396" fill="url(#shade)"/>
+  <defs><linearGradient id="shade" x1="0" x2="1"><stop stop-color="#0A0A0A" stop-opacity=".68"/><stop offset=".58" stop-color="#0A0A0A" stop-opacity=".06"/><stop offset="1" stop-color="#0A0A0A" stop-opacity=".35"/></linearGradient></defs>
+  <text x="416" y="102" fill="#C3CBD0" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="4">ADVISORY &amp; CAPITAL</text>
+  <text x="416" y="202" fill="#FFFFFF" font-family="Georgia,'Times New Roman',serif" font-size="53">Clareza para decidir.</text><text x="416" y="261" fill="#FFFFFF" font-family="Georgia,'Times New Roman',serif" font-size="53">Capital para avançar.</text>
+  <g transform="translate(1265 52) scale(.56)" fill="#FFFFFF"><path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/><path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/></g><text x="1314" y="84" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="6">TURION</text>
+  <text x="1234" y="342" fill="#C3CBD0" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="3">TRAVEL · FITNESS · HEALTH</text>
+</svg>

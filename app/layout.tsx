@@ -11,11 +11,11 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase,
     title: {
-      default: "Turion Global | Advisory internacional",
-      template: "%s | Turion Global",
+      default: "TURION | Advisory & Capital",
+      template: "%s | Turion",
     },
     description:
-      "Assessoria estratégica para empresas da economia da experiência e do bem-estar, conectando oportunidades a instituições e especialistas qualificados.",
+      "Inteligência setorial e preparação de oportunidades de capital para empresas de Travel, Fitness e Health.",
     icons: {
       icon: "/favicon.png",
       shortcut: "/favicon.png",
@@ -23,18 +23,18 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: "website",
       locale: "pt_BR",
-      siteName: "Turion Global",
-      title: "Turion Global | Estratégia financeira por setores",
+      siteName: "TURION",
+      title: "TURION | Advisory & Capital",
       description:
-        "Assessoria estratégica para preparar e conectar oportunidades empresariais a instituições e especialistas qualificados.",
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: "Turion Global — Estratégia financeira, construída por setores." }],
+        "Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.",
+      images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "TURION. Capital com direção." }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Turion Global | Estratégia financeira por setores",
+      title: "TURION | Advisory & Capital",
       description:
-        "Assessoria estratégica para preparar e conectar oportunidades empresariais a instituições e especialistas qualificados.",
-      images: ["/og.png"],
+        "Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.",
+      images: ["/og.jpg"],
     },
   };
 }
