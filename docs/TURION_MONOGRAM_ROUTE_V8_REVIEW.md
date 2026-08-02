@@ -2,7 +2,17 @@
 
 Status: `approved for next phase`
 Data: 2026-08-02
-Escopo: protótipo local, reversível e não publicado.
+Escopo: sistema visual oficial aprovado, salvo em branch de revisão e ainda não publicado.
+
+## Fonte visual de verdade
+
+Arquivo aprovado: `deliverables/brand-v8/TURION_v8_APPROVED_REFERENCE.png`
+
+- dimensão: 1536 × 1024 px;
+- SHA-256: `dd78e3ff31d820690cb84d9ffe07126fca0aa2c1c7ffc04b3e0dfc11d9f267e0`;
+- decisão da direção: “siga essa marca, tudo que está aqui está aprovado.”
+
+Quando qualquer aplicação divergir desta prancha, a prancha aprovada prevalece.
 
 ## Ideia central
 
@@ -15,6 +25,30 @@ O monograma reúne duas formas espelhadas. A forma da esquerda representa a empr
 - direção sem promessa de resultado;
 - assinatura reconhecível em escala reduzida;
 - capacidade de gerar padrão gráfico proprietário.
+
+## Sistema aprovado na prancha
+
+- monograma espelhado `TT`;
+- assinatura monograma + `TURION` em caixa alta e espaçamento amplo;
+- construção geométrica e eixo central;
+- padrão modular derivado do monograma;
+- versões positiva, reversa e baixo-relevo;
+- materialidade editorial em Onyx Black e Alabaster Grey;
+- cor de acento Blue Slate;
+- composição com espaço negativo, linhas finas e autoridade silenciosa.
+
+### Territórios conceituais aprovados
+
+- **Company:** Purpose, Stewardship, Long-term.
+- **Union:** Direction, Alignment, Trust.
+- **Capital:** Resources, Discipline, Growth.
+- **Síntese:** Union creates Direction and Trust.
+
+### Paleta oficial
+
+- Onyx Black `#0A0A0A` — primária;
+- Blue Slate `#536878` — acento;
+- Alabaster Grey `#E5E4E2` — papel e fundo claro.
 
 ## O que foi deliberadamente evitado
 
@@ -44,7 +78,7 @@ O monograma reúne duas formas espelhadas. A forma da esquerda representa a empr
 - Paleta de referência: Onyx `#0A0A0A`, Blue Slate `#536878` e Alabaster Grey `#E5E4E2`
 - Aplicações aprovadas para refinamento final: website, cartão, assinatura de e-mail e banner de LinkedIn
 - Correções solicitadas nesta aprovação: nenhuma
-- Evidência final da aprovação: “Essa é a logo que vamos usar. Por favor, quero que use isso para aplicar como marca oficial, salva essa informação.”
+- Evidência final da aprovação: “Siga essa marca, tudo que está aqui está aprovado.”
 - Autorização para salvar no GitHub em branch de revisão: sim
 - Autorização para preparar ou compartilhar Canva: não concedida
 - Autorização para `main`, Hostinger, registro ou produção: não concedida
