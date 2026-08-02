@@ -4,6 +4,7 @@ import type { SiteContent } from "../data/sites";
 import { divisions } from "../data/sites";
 import BrandMark from "./BrandMark.astro";
 import SiteHeader from "./SiteHeader.astro";
+import SiteFooter from "./SiteFooter.astro";
 
 const { content } = Astro.props as { content: SiteContent };
 const isHome = content.key === "advisory";
@@ -122,13 +123,6 @@ const isHome = content.key === "advisory";
       </div>
     </section>
   </main>
-  <footer class="site-footer">
-    <div class="shell footer__top"><BrandMark compact /><p>Advisory &amp; Capital para empresas dos setores Travel, Fitness e Health.</p></div>
-    <div class="shell footer__legal">
-      <p>A Turion não é banco, fintech, instituição financeira ou correspondente bancário. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições autorizadas. A aprovação, as condições e a contratação são decisões exclusivas da instituição escolhida.</p>
-      <span>© {new Date().getFullYear()} TURION</span>
-    </div>
-  </footer>
+  <SiteFooter />
   <script src="https://link.msgsndr.com/js/form_embed.js" is:inline></script>
 </BaseLayout>
-

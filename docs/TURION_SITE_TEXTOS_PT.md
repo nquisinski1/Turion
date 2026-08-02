@@ -10,6 +10,28 @@ Versão editorial gerada a partir da fonte canônica do site Astro.
 
 **Nota legal:** A Turion não é banco, fintech, instituição financeira ou correspondente bancário. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições autorizadas. A aprovação, as condições e a contratação são decisões exclusivas da instituição escolhida.
 
+## Rodapé institucional
+
+### Capital exige contexto. Crescimento exige direção.
+
+**Chamada:** Uma decisão relevante merece atenção à sua medida.
+
+**Ação:** Solicitar atenção exclusiva
+
+### Canais especializados
+
+- Travel: travel@turionadvisory.com
+- Fitness: fitness@turionadvisory.com
+- Health: health@turionadvisory.com
+- Imprensa: press@turionadvisory.com
+- Alianças nacionais e internacionais: partners@turionadvisory.com
+
+### Canais oficiais
+
+- Website: turionadvisory.com
+- Instagram: @turioncapital
+- LinkedIn: turioncapital
+
 ---
 
 # TURION | Advisory & Capital

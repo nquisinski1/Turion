@@ -68,6 +68,23 @@ test("keeps the review site protected from search indexing", async () => {
   assert.match(html, /<meta name="robots" content="noindex, nofollow"/i);
 });
 
+test("renders the complete institutional footer on every public page", async () => {
+  for (const route of ["/", "/travel", "/fitness", "/health"]) {
+    const html = await render(route);
+    assert.match(html, /turionadvisory\.com/i);
+    assert.match(html, /press@turionadvisory\.com/i);
+    assert.match(html, /travel@turionadvisory\.com/i);
+    assert.match(html, /fitness@turionadvisory\.com/i);
+    assert.match(html, /health@turionadvisory\.com/i);
+    assert.match(html, /partners@turionadvisory\.com/i);
+    assert.match(html, /instagram\.com\/turioncapital/i);
+    assert.match(html, /linkedin\.com\/company\/turioncapital/i);
+    assert.match(html, /Solicitar atenção exclusiva/i);
+    assert.match(html, /href="#contato"/i);
+    assert.doesNotMatch(html, /Stepup|Growth Architecture|The Council/i);
+  }
+});
+
 test("preserves the legacy vitality route as a redirect", async () => {
   const html = await render("/vitality");
   assert.match(html, /url=\/health\//i);
