@@ -113,7 +113,7 @@ test("ships pre-launch search protection", async () => {
   assert.match(html, /<meta name="robots" content="noindex, nofollow"/i);
 });
 
-test("renders the v8 monogram review without releasing production assets", async () => {
+test("renders the v8.1 monogram review without releasing production assets", async () => {
   const response = await render("/brand-review");
   assert.equal(response.status, 200);
   const html = await response.text();
@@ -121,10 +121,11 @@ test("renders the v8 monogram review without releasing production assets", async
   assert.match(html, /Empresa/);
   assert.match(html, /União/);
   assert.match(html, /Capital/);
-  assert.match(html, /Rota aprovada para a próxima fase/);
+  assert.match(html, /Refinamento de escala aguardando aprovação visual/);
 
   const brandSource = await readFile(new URL("../app/TurionBrand.tsx", import.meta.url), "utf8");
   assert.match(brandSource, /M4 8H31V64/);
   assert.match(brandSource, /M33 8H60V22/);
+  assert.match(brandSource, /scale\(\.84\)/);
   assert.doesNotMatch(brandSource, /M4 10C13 10 20 7/);
 });
