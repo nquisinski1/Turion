@@ -1,0 +1,94 @@
+---
+import BrandMark from "./BrandMark.astro";
+
+const year = new Date().getFullYear();
+const contacts = [
+  {
+    code: "01",
+    label: "Travel",
+    title: "Turion Travel",
+    description: "Operadoras, hospitalidade, tecnologia e serviços do ecossistema de viagens.",
+    email: "travel@turionadvisory.com",
+  },
+  {
+    code: "02",
+    label: "Fitness",
+    title: "Turion Fitness",
+    description: "Academias, clubes, equipamentos, distribuição e tecnologia para movimento.",
+    email: "fitness@turionadvisory.com",
+  },
+  {
+    code: "03",
+    label: "Health",
+    title: "Turion Health",
+    description: "Clínicas, hospitais, cosméticos, farmacêutica e tecnologia para saúde.",
+    email: "health@turionadvisory.com",
+  },
+  {
+    code: "04",
+    label: "Imprensa",
+    title: "Relações com a imprensa",
+    description: "Solicitações editoriais, entrevistas, conferências e materiais institucionais.",
+    email: "press@turionadvisory.com",
+  },
+];
+---
+
+<footer class="site-footer">
+  <div class="footer-grid" aria-hidden="true"></div>
+  <div class="shell footer-lead">
+    <div class="footer-lead__brand">
+      <BrandMark />
+      <p>Capital exige contexto.<br />Crescimento exige direção.</p>
+    </div>
+    <div class="footer-lead__cta">
+      <p class="section-label">Conversa reservada</p>
+      <h2>Uma decisão relevante merece atenção à sua medida.</h2>
+      <a class="footer-action" href="#contato">Solicitar atenção exclusiva <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+
+  <div class="shell footer-contacts">
+    {contacts.map((contact) => (
+      <section class="footer-contact">
+        <p class="footer-kicker">{contact.code} · {contact.label}</p>
+        <h3>{contact.title}</h3>
+        <p>{contact.description}</p>
+        <a href={`mailto:${contact.email}`}>{contact.email}</a>
+      </section>
+    ))}
+  </div>
+
+  <div class="shell footer-directory">
+    <div class="footer-signature">
+      <BrandMark />
+      <a href="https://turionadvisory.com">turionadvisory.com</a>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navegação institucional">
+      <a href="/">Advisory &amp; Capital</a>
+      <a href="/travel/">Travel</a>
+      <a href="/fitness/">Fitness</a>
+      <a href="/health/">Health</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <section class="footer-partners">
+      <p class="footer-kicker">Alianças</p>
+      <h3>Relações nacionais e internacionais.</h3>
+      <p>Para instituições, especialistas e organizações interessadas em desenvolver uma relação com a Turion.</p>
+      <a href="mailto:partners@turionadvisory.com">partners@turionadvisory.com <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="footer-social">
+      <p class="footer-kicker">Canais oficiais</p>
+      <a href="https://www.instagram.com/turioncapital/" target="_blank" rel="noreferrer">Instagram · @turioncapital <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/company/turioncapital/" target="_blank" rel="noreferrer">LinkedIn · turioncapital <span aria-hidden="true">↗</span></a>
+    </section>
+  </div>
+
+  <div class="shell footer-legal">
+    <p>A Turion não é banco, fintech, instituição financeira ou correspondente bancário. Não realiza empréstimos, análise de crédito ou atividades privativas de instituições autorizadas. A aprovação, as condições e a contratação são decisões exclusivas da instituição escolhida.</p>
+    <div><span>© {year} TURION</span><a href="#inicio">Voltar ao início ↑</a></div>
+  </div>
+</footer>

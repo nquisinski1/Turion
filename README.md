@@ -1,36 +1,34 @@
-# Turion Global — site institucional
+# TURION — site institucional
 
-Site institucional em português para a primeira fase da Turion Global.
+Site estático em Astro para revisão privada da identidade v8 e da narrativa institucional da TURION.
 
-## Posicionamento implementado
+## Sistema vigente
 
-- assessoria estratégica empresarial internacional;
-- foco na economia da experiência e do bem-estar;
-- atuação direta em diagnóstico, preparação, conexão e acompanhamento;
-- execução de produtos e atividades reguladas reservada a parceiros competentes;
-- verticais Travel Capital, Fitness Capital e Vitality Capital;
-- área específica para bancos, fundos e especialistas;
-- linguagem regulatória e links de consulta a BCB e CVM;
-- proteção `noindex, nofollow` durante aprovação.
+- marca oficial: monograma v8 e assinatura `TURION`;
+- divisões: `Turion Travel`, `Turion Fitness` e `Turion Health`;
+- paleta: Onyx `#0A0A0A`, Blue Slate `#536878` e Alabaster `#E5E4E2`;
+- experiência visual sem fotografia, construída com tipografia, grid, contraste, espaço e o monograma;
+- conteúdo em português, protegido por `noindex, nofollow` durante a aprovação.
 
-## Identidade
+## Tecnologia
 
-- rota C aprovada;
-- `#192830` — petróleo profundo;
-- `#C0B19A` — bronze mineral;
-- `#FFFFFF` — branco;
-- símbolo aplicado via CSS para preservar precisão e carregamento.
+```bash
+npm install
+npm run dev
+npm run check
+npm test
+```
 
-## Gate para publicação pública
+O comando `npm run build` gera o site estático em `dist/`.
 
-O site está preparado como versão privada de aprovação. Não remover `noindex` até confirmar:
+## Rotas
 
-1. razão social, registro e endereço da entidade contratante;
-2. parecer jurídico Brasil–Panamá;
-3. domínio canônico e funcionamento de `contato@turionglobal.com`;
-4. política de privacidade, controlador e canal do titular;
-5. contratos e autorizações de parceiros;
-6. busca jurídica do nome, do símbolo e de `Vitality Capital`;
-7. textos finais sobre remuneração e produtos.
+- `/` — Advisory & Capital
+- `/travel/` — Turion Travel
+- `/fitness/` — Turion Fitness
+- `/health/` — Turion Health
+- `/vitality/` — redirecionamento legado para Health
 
-Logotipos de parceiros não foram publicados porque não foram fornecidos contratos, autorizações de uso ou arquivos oficiais.
+## Gate de publicação
+
+Esta versão está em revisão. Aprovação visual, merge em `main`, hospedagem, indexação e publicação são decisões separadas.

@@ -1,36 +1,91 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-async function render() {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  const { default: worker } = await import(workerUrl.href);
+const routeFile = (route) => new URL(`../dist${route === "/" ? "/index.html" : `${route}/index.html`}`, import.meta.url);
+const render = (route = "/") => readFile(routeFile(route), "utf8");
 
-  return worker.fetch(
-    new Request("http://localhost/", { headers: { accept: "text/html" } }),
-    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
-    { waitUntil() {}, passThroughOnException() {} },
-  );
-}
-
-test("renders the complete Turion Global advisory site", async () => {
-  const response = await render();
-  assert.equal(response.status, 200);
-  assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
-
-  const html = await response.text();
-  assert.match(html, /<title>Turion Global \| Estratégia financeira por setores<\/title>/i);
-  assert.match(html, /Estratégia financeira/);
-  assert.match(html, /Travel Capital/);
-  assert.match(html, /Vitality Capital/);
-  assert.match(html, /Para bancos, fundos e especialistas/);
-  assert.match(html, /Não é instituição financeira ou de pagamento/);
-  assert.match(html, /<form\b/i);
-  assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/i);
+test("renders the TURION institutional site", async () => {
+  const html = await render();
+  assert.match(html, /<title>TURION \| Advisory &amp; Capital<\/title>/i);
+  assert.match(html, /Capital exige mais do que acesso/i);
+  assert.match(html, /Exige critério/i);
+  assert.match(html, /A qualidade da relação com o capital começa na qualidade da oportunidade/i);
+  assert.match(html, /href="\/travel\/"/);
+  assert.match(html, /href="\/fitness\/"/);
+  assert.match(html, /href="\/health\/"/);
+  assert.match(html, /api\.leadconnectorhq\.com\/widget\/form\/61iIYgpvcfo22fkrMxDX/i);
+  assert.match(html, /não realiza empréstimos, análise de crédito ou atividades privativas/i);
 });
 
-test("ships pre-launch search protection", async () => {
-  const response = await render();
-  const html = await response.text();
+test("uses institutional language without prohibited or promotional vocabulary", async () => {
+  const pages = await Promise.all(["/", "/travel", "/fitness", "/health"].map(render));
+  const publicLanguage = pages.join("\n");
+
+  assert.doesNotMatch(publicLanguage, /Turion Global|Vitality|Travel Capital|Fitness Capital|Private Bank|advisory independente|arquitetura|garantimos|melhores oportunidades|revolucionário|exclusivo|líder do mercado/i);
+  assert.doesNotMatch(publicLanguage, /<img\b/i);
+  assert.doesNotMatch(publicLanguage, /\.(?:jpe?g|webp)(?:["')?])/i);
+});
+
+test("applies the approved v8 system", async () => {
+  const css = await readFile(new URL("../src/styles/global.css", import.meta.url), "utf8");
+  const brand = await readFile(new URL("../src/components/BrandMark.astro", import.meta.url), "utf8");
+
+  assert.match(css, /--onyx:\s*#0a0a0a/i);
+  assert.match(css, /--blue-slate:\s*#536878/i);
+  assert.match(css, /--alabaster:\s*#e5e4e2/i);
+  assert.match(brand, /M4 8H31V64/);
+  assert.match(brand, /M33 8H60V22/);
+});
+
+for (const [route, title, thesis, service] of [
+  ["/travel", "Turion Travel", "O turismo converte confiança futura em compromisso presente", "Ciclo de caixa e recebíveis"],
+  ["/fitness", "Turion Fitness", "Recorrência não é apenas receita", "Expansão e capacidade"],
+  ["/health", "Turion Health", "Em Health, capital e responsabilidade avançam juntos", "Tecnologia e capacidade"],
+]) {
+  test(`renders the complete ${title} division`, async () => {
+    const html = await render(route);
+    assert.match(html, new RegExp(`<title>${title}`));
+    assert.match(html, new RegExp(thesis));
+    assert.match(html, new RegExp(service));
+    assert.match(html, /Conversa reservada/);
+  });
+}
+
+test("uses the same institutional navigation on all pages", async () => {
+  for (const route of ["/", "/travel", "/fitness", "/health"]) {
+    const html = await render(route);
+    assert.match(html, />Advisory &amp; Capital</);
+    assert.match(html, />Travel</);
+    assert.match(html, />Fitness</);
+    assert.match(html, />Health</);
+    assert.match(html, />Contato</);
+  }
+});
+
+test("keeps the review site protected from search indexing", async () => {
+  const html = await render();
   assert.match(html, /<meta name="robots" content="noindex, nofollow"/i);
+});
+
+test("renders the complete institutional footer on every public page", async () => {
+  for (const route of ["/", "/travel", "/fitness", "/health"]) {
+    const html = await render(route);
+    assert.match(html, /turionadvisory\.com/i);
+    assert.match(html, /press@turionadvisory\.com/i);
+    assert.match(html, /travel@turionadvisory\.com/i);
+    assert.match(html, /fitness@turionadvisory\.com/i);
+    assert.match(html, /health@turionadvisory\.com/i);
+    assert.match(html, /partners@turionadvisory\.com/i);
+    assert.match(html, /instagram\.com\/turioncapital/i);
+    assert.match(html, /linkedin\.com\/company\/turioncapital/i);
+    assert.match(html, /Solicitar atenção exclusiva/i);
+    assert.match(html, /href="#contato"/i);
+    assert.doesNotMatch(html, /Stepup|Growth Architecture|The Council/i);
+  }
+});
+
+test("preserves the legacy vitality route as a redirect", async () => {
+  const html = await render("/vitality");
+  assert.match(html, /url=\/health\//i);
 });

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-label="Banner institucional TURION para LinkedIn">
+  <defs>
+    <pattern id="monogram-pattern" width="94" height="104" patternUnits="userSpaceOnUse">
+      <g fill="#536878" opacity=".13" transform="translate(17 17) scale(.72)">
+        <path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/>
+        <path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/>
+      </g>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#0A0A0A"/><stop offset=".53" stop-color="#0A0A0A" stop-opacity=".96"/><stop offset="1" stop-color="#0A0A0A" stop-opacity=".7"/></linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="#0A0A0A"/>
+  <rect x="900" width="684" height="396" fill="url(#monogram-pattern)"/>
+  <rect width="1584" height="396" fill="url(#fade)"/>
+  <line x1="375" y1="58" x2="375" y2="338" stroke="#536878" stroke-opacity=".62"/>
+  <g transform="translate(430 93) scale(1.34)" fill="#FFFFFF">
+    <path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/>
+    <path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/>
+  </g>
+  <text x="548" y="172" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="500" letter-spacing="16">TURION</text>
+  <text x="434" y="269" fill="#AAB6BD" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="4.4">ADVISORY &amp; CAPITAL</text>
+  <text x="434" y="316" fill="#6F818E" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3.2">COMPANY · UNION · CAPITAL</text>
+  <text x="1190" y="316" fill="#AAB6BD" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="3">TRAVEL · FITNESS · HEALTH</text>
+</svg>
