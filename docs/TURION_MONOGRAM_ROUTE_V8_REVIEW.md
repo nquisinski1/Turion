@@ -1,6 +1,6 @@
 # TURION — Monograma, rota v8
 
-Status: `awaiting approval`
+Status: `approved for next phase`
 Data: 2026-08-02
 Escopo: protótipo local, reversível e não publicado.
 
@@ -40,20 +40,19 @@ O monograma reúne duas formas espelhadas. A forma da esquerda representa a empr
 - Data da decisão: 2026-08-02
 - Responsável pela decisão: Nina Quisinski
 - Rota aprovada: formas espelhadas e conceito “Duas partes. Uma direção.”
-- Sistema visual aprovado: sim, para desenvolvimento da próxima fase
+- Sistema visual aprovado: sim, como marca oficial TURION
 - Paleta de referência: Onyx `#0A0A0A`, Blue Slate `#536878` e Alabaster Grey `#E5E4E2`
-- Aplicações conceituais aprovadas: website, cartão, assinatura de e-mail e banner de LinkedIn
+- Aplicações aprovadas para refinamento final: website, cartão, assinatura de e-mail e banner de LinkedIn
 - Correções solicitadas nesta aprovação: nenhuma
-- Evidência da aprovação: “Por favor, salve, ficou maravilhoso!!! eu ameei.”
+- Evidência final da aprovação: “Essa é a logo que vamos usar. Por favor, quero que use isso para aplicar como marca oficial, salva essa informação.”
+- Autorização para salvar no GitHub em branch de revisão: sim
+- Autorização para preparar ou compartilhar Canva: não concedida
+- Autorização para `main`, Hostinger, registro ou produção: não concedida
 
-## Aplicações em revisão
+## Decisão sobre estudos posteriores
 
-Em 2026-08-02 foi iniciada uma segunda rota de aplicações do sistema aprovado. O cartão, o banner do LinkedIn e a assinatura de e-mail foram refeitos a partir de referências editoriais apresentadas pela direção. Essas aplicações ainda aguardam aprovação visual específica.
-
-### Refinamento v8.1
-
-Em 2026-08-02, a direção solicitou reduzir a presença visual dos dois `T`. A geometria e o significado aprovados foram preservados, enquanto a escala interna do monograma foi reduzida em 16%, ampliando o respiro ao redor do símbolo. O padrão gráfico recebeu módulos menores, ritmo mais fino e contraste mais baixo. Este refinamento e suas aplicações permanecem `awaiting approval`.
+Os estudos v8.1 e v9 não substituem a rota oficial. A decisão final restaura a escala e a geometria integral da v8. Esses estudos ficam classificados como `retire` e não devem ser aplicados em novos materiais.
 
 ## Limites desta aprovação
 
-Esta decisão aprova a direção visual. Não constitui liberação para registro de marca, produção gráfica, publicação em redes sociais, envio ao GitHub ou hospedagem. Esses marcos permanecem separados e dependem de autorização específica.
+Esta decisão aprova a identidade e autoriza seu refinamento vetorial final e salvamento em branch de revisão no GitHub. Não constitui liberação para registro de marca, produção gráfica, publicação em redes sociais, integração na `main` ou hospedagem. Esses marcos permanecem separados e dependem de autorização específica.

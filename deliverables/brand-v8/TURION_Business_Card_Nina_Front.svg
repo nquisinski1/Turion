@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1063" height="591" viewBox="0 0 1063 591" role="img" aria-label="Frente do cartão TURION">
-  <defs><pattern id="p" width="82" height="78" patternUnits="userSpaceOnUse"><g fill="#536878" opacity=".12" transform="translate(20 15) scale(.64)"><path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/><path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/></g></pattern></defs>
+  <defs><pattern id="p" width="116" height="124" patternUnits="userSpaceOnUse"><g fill="#536878" opacity=".17" transform="translate(24 22)"><path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/><path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/></g></pattern></defs>
   <rect width="1063" height="591" fill="#0A0A0A"/><rect width="1063" height="591" fill="url(#p)"/>
-  <g transform="translate(768 66) scale(.46)" fill="#FFFFFF"><path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/><path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/></g>
-  <text x="812" y="95" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" letter-spacing="7">TURION</text>
+  <g transform="translate(762 62) scale(.58)" fill="#FFFFFF"><path d="M4 8H31V64H21C25.8 58.1 28 50.6 28 40V13H16C10.9 13 7.7 16 5.8 22H4V8Z"/><path d="M33 8H60V22H58.2C56.3 16 53.1 13 48 13H36V40C36 50.6 38.2 58.1 43 64H33V8Z"/></g>
+  <text x="815" y="95" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" letter-spacing="7">TURION</text>
   <text x="72" y="519" fill="#AAB6BD" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="4.4">ADVISORY &amp; CAPITAL</text>
 </svg>

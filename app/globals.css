@@ -260,8 +260,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .lockup-grid .lockup-primary { grid-column: span 3; min-height: 370px; color: var(--white); background: var(--onyx); }
 .lockup-primary .turion-symbol { width: 68px; height: 78px; }
 .lockup-primary .turion-wordmark strong { font-size: 42px; }
-.monogram-pattern { display: grid; grid-template-columns: repeat(9, 1fr); min-height: 220px; align-items: center; justify-items: center; padding: 34px; color: rgba(229,228,226,.13); background: var(--blue-slate-deep); overflow: hidden; }
-.monogram-pattern .turion-symbol { width: 56px; height: 63px; }
+.monogram-pattern { display: grid; grid-template-columns: repeat(9, 1fr); min-height: 220px; align-items: center; justify-items: center; padding: 34px; color: rgba(229,228,226,.18); background: var(--blue-slate-deep); overflow: hidden; }
+.monogram-pattern .turion-symbol { width: 72px; height: 82px; }
 .monogram-reductions { display: flex; align-items: end; gap: 48px; padding: 38px; color: var(--ink); border-right: 1px solid var(--line-light); border-bottom: 1px solid var(--line-light); border-left: 1px solid var(--line-light); }
 .monogram-reductions > p { align-self: center; margin: 0 auto 0 0; color: var(--blue-slate); font-size: 9px; letter-spacing: .15em; text-transform: uppercase; }
 .monogram-reductions > div { display: grid; justify-items: center; gap: 12px; }
@@ -280,23 +280,23 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .business-card { position: relative; width: min(510px, 42vw); aspect-ratio: 1.75; padding: 38px; box-shadow: 0 34px 70px rgba(0,0,0,.3); overflow: hidden; }
 .card-front { display: flex; flex-direction: column; justify-content: space-between; color: var(--white); background: var(--onyx); transform: rotate(-3deg); }
 .card-front .turion-logo { position: relative; z-index: 1; align-self: flex-end; }
-.card-front .turion-logo .turion-symbol { width: 22px; height: 25px; }
+.card-front .turion-logo .turion-symbol { width: 26px; height: 30px; }
 .card-front .turion-wordmark strong { font-size: 13px; letter-spacing: .2em; }
 .card-front > span { position: relative; z-index: 1; color: #aab6bd; font-size: 8px; letter-spacing: .2em; text-transform: uppercase; }
-.card-pattern { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(7, 1fr); align-content: center; justify-items: center; row-gap: 4px; color: rgba(83,104,120,.13); transform: scale(1.04); }
-.card-pattern .turion-symbol { width: 39px; height: 44px; }
+.card-pattern { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(7, 1fr); align-content: center; justify-items: center; color: rgba(83,104,120,.18); transform: scale(1.08); }
+.card-pattern .turion-symbol { width: 51px; height: 57px; }
 .card-back { display: grid; grid-template-columns: 1fr auto; grid-template-rows: 1fr auto; align-items: start; color: var(--ink); background: var(--alabaster); transform: translateY(50px) rotate(2deg); }
 .card-back::before { content: ""; position: absolute; inset: 0 0 auto; height: 9px; background: var(--blue-slate-deep); }
 .card-back .card-person { display: grid; gap: 9px; padding-top: 12px; }
 .card-back strong { font: 400 30px/1 var(--serif); }
 .card-back .card-person span { color: var(--blue-slate); font-size: 8px; letter-spacing: .16em; text-transform: uppercase; }
-.card-back > .turion-symbol { width: 27px; height: 31px; color: var(--blue-slate-deep); }
+.card-back > .turion-symbol { width: 31px; height: 36px; color: var(--blue-slate-deep); }
 .card-back address { grid-column: 1 / -1; justify-self: end; font-size: 8px; line-height: 2; font-style: normal; text-align: left; }
 .card-back address span { display: inline-block; width: 22px; color: var(--blue-slate); font-size: 7px; letter-spacing: .12em; }
 .signature-surround { padding: 76px 6vw; background: var(--blue-slate-deep); }
 .signature-stage { display: grid; grid-template-columns: 88px minmax(200px,.72fr) minmax(245px,1fr); align-items: stretch; max-width: 880px; min-height: 168px; margin: auto; color: var(--ink); background: #fff; box-shadow: 0 28px 65px rgba(0,0,0,.22); }
 .signature-mark { display: grid; place-items: center; color: var(--white); background: var(--onyx); }
-.signature-stage .turion-symbol { width: 28px; height: 32px; }
+.signature-stage .turion-symbol { width: 34px; height: 39px; }
 .signature-person { display: flex; flex-direction: column; justify-content: center; gap: 9px; padding: 30px 38px; border-right: 1px solid #d9d9d7; }
 .signature-person strong { font: 400 27px/1 var(--serif); }
 .signature-person span { color: var(--blue-slate); font-size: 8px; letter-spacing: .15em; text-transform: uppercase; }
@@ -305,7 +305,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .linkedin-banner { position: relative; width: 100%; aspect-ratio: 4 / 1; padding: 48px 5vw; color: var(--white); background: var(--blue-slate-deep); overflow: hidden; }
 .linkedin-banner::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,rgba(10,10,10,.72),rgba(10,10,10,.12) 54%,rgba(10,10,10,.4)); pointer-events: none; }
 .linkedin-banner .turion-logo { position: absolute; z-index: 2; top: 45px; right: 5vw; }
-.linkedin-banner .turion-logo .turion-symbol { width: 26px; height: 30px; }
+.linkedin-banner .turion-logo .turion-symbol { width: 31px; height: 35px; }
 .linkedin-banner .turion-wordmark strong { font-size: 14px; letter-spacing: .22em; }
 .banner-copy { position: absolute; z-index: 2; left: 26%; bottom: 54px; }
 .linkedin-banner p, .banner-divisions { margin: 0; color: #c3cbd0; font-size: 8px; letter-spacing: .2em; text-transform: uppercase; }
