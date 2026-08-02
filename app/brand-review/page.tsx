@@ -85,13 +85,17 @@ export default function BrandReviewPage() {
       </section>
 
       <section className="review-section">
-        <div className="review-label"><span>05</span><p>LinkedIn</p></div>
+        <div className="review-label"><span>05</span><p>Identidade digital</p></div>
         <div className="linkedin-banner">
-          <div className="banner-arc banner-arc-one" aria-hidden="true" />
-          <div className="banner-arc banner-arc-two" aria-hidden="true" />
-          <div className="banner-copy"><p>ADVISORY & CAPITAL</p><h2>Clareza para decidir.<br />Capital para avançar.</h2></div>
-          <TurionLogo />
+          <div className="banner-safe-area" aria-hidden="true" />
+          <div className="banner-identity"><TurionLogo /><p>Advisory &amp; Capital</p><span>Company · Union · Capital</span></div>
+          <div className="banner-pattern" aria-hidden="true">{Array.from({ length: 28 }).map((_, index) => <TurionSymbol key={index} />)}</div>
           <span className="banner-divisions">Travel · Fitness · Health</span>
+        </div>
+        <div className="digital-assets">
+          <article><div className="profile-icon"><TurionSymbol /></div><strong>Perfil LinkedIn</strong><span>400 × 400 px</span></article>
+          <article><div className="favicon-preview favicon-dark"><TurionSymbol /></div><strong>Favicon reverso</strong><span>SVG + PNG</span></article>
+          <article><div className="favicon-preview favicon-light"><TurionSymbol /></div><strong>Favicon positivo</strong><span>SVG</span></article>
         </div>
       </section>
 

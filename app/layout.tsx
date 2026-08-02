@@ -17,8 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
     description:
       "Inteligência setorial e preparação de oportunidades de capital para empresas de Travel, Fitness e Health.",
     icons: {
-      icon: "/favicon.png",
-      shortcut: "/favicon.png",
+      icon: [
+        { url: "/favicon.svg", type: "image/svg+xml" },
+        { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      ],
+      shortcut: "/favicon-32.png",
+      apple: "/apple-touch-icon.png",
     },
     openGraph: {
       type: "website",
@@ -27,14 +31,14 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "TURION | Advisory & Capital",
       description:
         "Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.",
-      images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "TURION. Capital com direção." }],
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: "TURION. Advisory & Capital." }],
     },
     twitter: {
       card: "summary_large_image",
       title: "TURION | Advisory & Capital",
       description:
         "Inteligência setorial, preparação de oportunidades e interlocução institucional em Travel, Fitness e Health.",
-      images: ["/og.jpg"],
+      images: ["/og.png"],
     },
   };
 }
