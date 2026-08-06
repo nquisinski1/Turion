@@ -1,6 +1,6 @@
 # TURION — Monograma, rota v8
 
-Status: `approved for next phase`
+Status: `awaiting approval`
 Data: 2026-08-02
 Escopo: protótipo local, reversível e não publicado.
 
@@ -49,6 +49,10 @@ O monograma reúne duas formas espelhadas. A forma da esquerda representa a empr
 ## Aplicações em revisão
 
 Em 2026-08-02 foi iniciada uma segunda rota de aplicações do sistema aprovado. O cartão, o banner do LinkedIn e a assinatura de e-mail foram refeitos a partir de referências editoriais apresentadas pela direção. Essas aplicações ainda aguardam aprovação visual específica.
+
+### Refinamento v8.1
+
+Em 2026-08-02, a direção solicitou reduzir a presença visual dos dois `T`. A geometria e o significado aprovados foram preservados, enquanto a escala interna do monograma foi reduzida em 16%, ampliando o respiro ao redor do símbolo. O padrão gráfico recebeu módulos menores, ritmo mais fino e contraste mais baixo. Este refinamento e suas aplicações permanecem `awaiting approval`.
 
 ## Limites desta aprovação
 

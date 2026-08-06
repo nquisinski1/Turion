@@ -18,7 +18,7 @@ export default function BrandReviewPage() {
       </header>
 
       <section className="review-intro">
-        <p>Monograma · rota v8 · aprovada</p>
+        <p>Monograma · refinamento v8.1 · em revisão</p>
         <h1>Duas partes. Uma direção.</h1>
         <div className="review-symbol"><TurionSymbol /></div>
       </section>
@@ -96,7 +96,7 @@ export default function BrandReviewPage() {
       </section>
 
       <footer className="review-footer">
-        <p>Rota aprovada para a próxima fase. Ainda não liberada para registro, produção ou publicação.</p>
+        <p>Refinamento de escala aguardando aprovação visual. Ainda não liberado para registro, produção ou publicação.</p>
         <Link href="/">Analisar o site completo ↗</Link>
       </footer>
     </main>
